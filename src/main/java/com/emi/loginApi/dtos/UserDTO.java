@@ -1,6 +1,7 @@
-package com.ruben.todoapp.dtos;
+package com.emi.loginApi.dtos;
 
-import com.ruben.todoapp.models.Role;
+import com.emi.loginApi.models.Role;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

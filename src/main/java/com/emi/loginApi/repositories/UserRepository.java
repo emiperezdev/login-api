@@ -1,10 +1,10 @@
-package com.ruben.todoapp.repositories;
+package com.emi.loginApi.repositories;
 
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.ruben.todoapp.models.User;
+import com.emi.loginApi.models.User;
 
 public interface UserRepository extends JpaRepository<User, Integer> {
 

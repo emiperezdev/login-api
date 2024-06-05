@@ -1,4 +1,4 @@
-package com.ruben.todoapp.controllers;
+package com.emi.loginApi.controllers;
 
 import java.util.List;
 
@@ -12,11 +12,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.ruben.todoapp.auth.AuthenticationRequest;
-import com.ruben.todoapp.auth.RegisterRequest;
-import com.ruben.todoapp.dtos.UserDTO;
-import com.ruben.todoapp.models.User;
-import com.ruben.todoapp.services.UserService;
+import com.emi.loginApi.auth.AuthenticationRequest;
+import com.emi.loginApi.auth.RegisterRequest;
+import com.emi.loginApi.dtos.UserDTO;
+import com.emi.loginApi.models.User;
+import com.emi.loginApi.services.UserService;
 
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;

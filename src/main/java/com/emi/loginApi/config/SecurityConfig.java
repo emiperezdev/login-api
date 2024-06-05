@@ -1,4 +1,4 @@
-package com.ruben.todoapp.config;
+package com.emi.loginApi.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

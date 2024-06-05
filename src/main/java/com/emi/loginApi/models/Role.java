@@ -1,4 +1,4 @@
-package com.ruben.todoapp.models;
+package com.emi.loginApi.models;
 
 public enum Role {
   USER,

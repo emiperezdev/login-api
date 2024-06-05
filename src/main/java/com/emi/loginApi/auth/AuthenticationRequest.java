@@ -1,4 +1,4 @@
-package com.ruben.todoapp.auth;
+package com.emi.loginApi.auth;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

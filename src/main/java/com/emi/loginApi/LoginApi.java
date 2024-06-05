@@ -1,13 +1,13 @@
-package com.ruben.todoapp;
+package com.emi.loginApi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TodoApplication {
+public class LoginApi {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TodoApplication.class, args);
+		SpringApplication.run(LoginApi.class, args);
 	}
 
 }

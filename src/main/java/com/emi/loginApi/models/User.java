@@ -1,4 +1,4 @@
-package com.ruben.todoapp.models;
+package com.emi.loginApi.models;
 
 import java.util.Collection;
 import java.util.List;

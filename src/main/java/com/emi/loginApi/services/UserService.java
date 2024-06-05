@@ -1,4 +1,4 @@
-package com.ruben.todoapp.services;
+package com.emi.loginApi.services;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -10,14 +10,14 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.ruben.todoapp.auth.AuthenticationRequest;
-import com.ruben.todoapp.auth.RegisterRequest;
-import com.ruben.todoapp.config.JwtService;
-import com.ruben.todoapp.dtos.UserDTO;
-import com.ruben.todoapp.mappers.UserMapper;
-import com.ruben.todoapp.models.Role;
-import com.ruben.todoapp.models.User;
-import com.ruben.todoapp.repositories.UserRepository;
+import com.emi.loginApi.auth.AuthenticationRequest;
+import com.emi.loginApi.auth.RegisterRequest;
+import com.emi.loginApi.config.JwtService;
+import com.emi.loginApi.dtos.UserDTO;
+import com.emi.loginApi.mappers.UserMapper;
+import com.emi.loginApi.models.Role;
+import com.emi.loginApi.models.User;
+import com.emi.loginApi.repositories.UserRepository;
 
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;

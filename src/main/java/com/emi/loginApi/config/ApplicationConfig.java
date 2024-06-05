@@ -1,4 +1,4 @@
-package com.ruben.todoapp.config;
+package com.emi.loginApi.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -11,7 +11,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
-import com.ruben.todoapp.repositories.UserRepository;
+import com.emi.loginApi.repositories.UserRepository;
 
 import lombok.RequiredArgsConstructor;
 

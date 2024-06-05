@@ -1,9 +1,9 @@
-package com.ruben.todoapp.mappers;
+package com.emi.loginApi.mappers;
 
 import org.springframework.stereotype.Component;
 
-import com.ruben.todoapp.dtos.UserDTO;
-import com.ruben.todoapp.models.User;
+import com.emi.loginApi.dtos.UserDTO;
+import com.emi.loginApi.models.User;
 
 @Component
 public class UserMapper {
