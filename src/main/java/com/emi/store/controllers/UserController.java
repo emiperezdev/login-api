@@ -22,7 +22,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
 
 @RestController
-@RequestMapping("/todo-app/users")
+@RequestMapping("/api/users")
 @RequiredArgsConstructor
 public class UserController {
 
