@@ -1,5 +1,6 @@
 package com.emi.store.services;
 
+import java.time.LocalDate;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -55,6 +56,9 @@ public class UserService {
         .email(request.getEmail())
         .password(passwordEncoder.encode(request.getPassword()))
         .role(Role.USER)
+        .age(request.getAge())
+        .phone(request.getPhone())
+        .createdAt(LocalDate.now())
         .build();
 
     userRepository.save(user);
@@ -100,6 +104,8 @@ public class UserService {
 
     user.setFirstName(updatedUser.getFirstName());
     user.setLastName(updatedUser.getLastName());
+    user.setAge(updatedUser.getAge());
+    user.setPhone(updatedUser.getPhone());
     user.setEmail(updatedUser.getEmail());
     if (updatedUser.getPassword() != null && !updatedUser.getPassword().isEmpty())
       user.setPassword(passwordEncoder.encode(updatedUser.getPassword()));

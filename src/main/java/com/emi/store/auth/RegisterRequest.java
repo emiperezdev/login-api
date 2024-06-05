@@ -1,5 +1,7 @@
 package com.emi.store.auth;
 
+import java.time.LocalDate;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -15,5 +17,8 @@ public class RegisterRequest {
   private String lastName;
   private String email;
   private String password;
+  private int age;
+  private String phone;
+  private LocalDate createdAt;
 
 }
