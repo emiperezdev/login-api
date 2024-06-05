@@ -14,7 +14,7 @@ import org.springframework.stereotype.Service;
 import com.emi.store.auth.AuthenticationRequest;
 import com.emi.store.auth.RegisterRequest;
 import com.emi.store.config.JwtService;
-import com.emi.store.dtos.UserDTO;
+import com.emi.store.dtos.UserDto;
 import com.emi.store.mappers.UserMapper;
 import com.emi.store.models.Role;
 import com.emi.store.models.User;
@@ -33,7 +33,7 @@ public class UserService {
   private final AuthenticationManager authenticationManager;
   private final UserMapper userMapper; // Inyecta el UserMapper
 
-  public List<UserDTO> getAllUsers() {
+  public List<UserDto> getAllUsers() {
     return userRepository.findAll().stream().map(userMapper::toUserDto).collect(Collectors.toList());
   }
 

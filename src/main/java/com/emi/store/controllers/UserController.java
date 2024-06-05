@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.emi.store.auth.AuthenticationRequest;
 import com.emi.store.auth.RegisterRequest;
-import com.emi.store.dtos.UserDTO;
+import com.emi.store.dtos.UserDto;
 import com.emi.store.models.User;
 import com.emi.store.services.UserService;
 
@@ -29,7 +29,7 @@ public class UserController {
   private final UserService userService;
 
   @GetMapping
-  public List<UserDTO> getAllUsers() {
+  public List<UserDto> getAllUsers() {
     return userService.getAllUsers();
   }
 
