@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.ruben.todoapp.auth.AuthenticationRequest;
 import com.ruben.todoapp.auth.RegisterRequest;
+import com.ruben.todoapp.dtos.UserDTO;
 import com.ruben.todoapp.models.User;
 import com.ruben.todoapp.services.UserService;
 
@@ -28,7 +29,7 @@ public class UserController {
   private final UserService userService;
 
   @GetMapping
-  public List<User> getAllUsers() {
+  public List<UserDTO> getAllUsers() {
     return userService.getAllUsers();
   }
 
