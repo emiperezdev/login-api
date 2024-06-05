@@ -1,13 +1,13 @@
-package com.emi.loginApi;
+package com.emi.store;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LoginApi {
+public class StoreApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LoginApi.class, args);
+		SpringApplication.run(StoreApplication.class, args);
 	}
 
 }

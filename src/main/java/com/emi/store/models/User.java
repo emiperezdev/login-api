@@ -1,4 +1,4 @@
-package com.emi.loginApi.models;
+package com.emi.store.models;
 
 import java.util.Collection;
 import java.util.List;

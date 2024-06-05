@@ -1,4 +1,4 @@
-package com.emi.loginApi.models;
+package com.emi.store.models;
 
 public enum Role {
   USER,

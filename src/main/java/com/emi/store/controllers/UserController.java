@@ -1,4 +1,4 @@
-package com.emi.loginApi.controllers;
+package com.emi.store.controllers;
 
 import java.util.List;
 
@@ -12,11 +12,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.emi.loginApi.auth.AuthenticationRequest;
-import com.emi.loginApi.auth.RegisterRequest;
-import com.emi.loginApi.dtos.UserDTO;
-import com.emi.loginApi.models.User;
-import com.emi.loginApi.services.UserService;
+import com.emi.store.auth.AuthenticationRequest;
+import com.emi.store.auth.RegisterRequest;
+import com.emi.store.dtos.UserDTO;
+import com.emi.store.models.User;
+import com.emi.store.services.UserService;
 
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;

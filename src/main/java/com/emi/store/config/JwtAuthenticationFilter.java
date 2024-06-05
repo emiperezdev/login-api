@@ -1,4 +1,4 @@
-package com.emi.loginApi.config;
+package com.emi.store.config;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package com.emi.loginApi.services;
+package com.emi.store.services;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -10,14 +10,14 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.emi.loginApi.auth.AuthenticationRequest;
-import com.emi.loginApi.auth.RegisterRequest;
-import com.emi.loginApi.config.JwtService;
-import com.emi.loginApi.dtos.UserDTO;
-import com.emi.loginApi.mappers.UserMapper;
-import com.emi.loginApi.models.Role;
-import com.emi.loginApi.models.User;
-import com.emi.loginApi.repositories.UserRepository;
+import com.emi.store.auth.AuthenticationRequest;
+import com.emi.store.auth.RegisterRequest;
+import com.emi.store.config.JwtService;
+import com.emi.store.dtos.UserDTO;
+import com.emi.store.mappers.UserMapper;
+import com.emi.store.models.Role;
+import com.emi.store.models.User;
+import com.emi.store.repositories.UserRepository;
 
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;

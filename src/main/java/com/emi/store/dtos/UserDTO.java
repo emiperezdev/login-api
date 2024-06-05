@@ -1,19 +1,20 @@
-package com.emi.loginApi.auth;
+package com.emi.store.dtos;
+
+import com.emi.store.models.Role;
 
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class RegisterRequest {
+public class UserDTO {
 
+  private Integer id;
   private String firstName;
   private String lastName;
   private String email;
-  private String password;
-
+  private Role role;
+  
 }
