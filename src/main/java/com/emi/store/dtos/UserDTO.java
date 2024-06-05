@@ -1,5 +1,7 @@
 package com.emi.store.dtos;
 
+import java.time.LocalDate;
+
 import com.emi.store.models.Role;
 
 import lombok.AllArgsConstructor;
@@ -15,6 +17,9 @@ public class UserDTO {
   private String firstName;
   private String lastName;
   private String email;
+  private LocalDate createdAt;
+  private String phone;
+  private int age;
   private Role role;
   
 }

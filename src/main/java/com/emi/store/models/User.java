@@ -1,5 +1,6 @@
 package com.emi.store.models;
 
+import java.time.LocalDate;
 import java.util.Collection;
 import java.util.List;
 
@@ -35,6 +36,12 @@ public class User implements UserDetails {
   private String email;
 
   private String password;
+
+  private String phone;
+
+  private int age;
+
+  private LocalDate createdAt;
 
   @Enumerated(EnumType.STRING)
   private Role role;
